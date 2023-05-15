@@ -140,3 +140,4 @@ step(lm(stocks$Intel ~ stocks$Citigroup + stocks$Pfizer + stocks$AmerExp + stock
 #AIC value of -370.4. This AIC value is reached with the preferred model stocks$Intel ~ stocks$Citigroup + stocks$Pfizer + stocks$AmerExp + 
 #stocks$Exxon + stocks$GenMotor. This model is different from the one acquired using bidirectional selection in that
 #it still has stocks$Pfizer. The AIC value is also higher. 
+
